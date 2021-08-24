@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', 'Poppins', 'Open Sans', 'Roboto', sans-serif !important;
+}
+
+h1,
+h2,
+h4,
+h3,
+h5,
+h6 {
+    font-family: 'Montserrat', 'Poppins', 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.parent ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+}
+
+.parent ul li {
+    border: 1px solid;
+    width: 100%;
+}
+.parent ul li a{
+    text-decoration: none;
+}
+
+.parent .tabcontent {
+    height: auto;
+    min-height: 300px;
+}
+
+.parent .tabcontent {
+    display: none;
+}
+

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="311.91" height="311.91" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d4d4d4;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-252" y="-253" width="805" height="805" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="83.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: none; filter: url(#filter)">
+    <path id="path" class="cls-1" d="M144.777-.032C224.3,3.3,303.586,110.125,300.465,179.811c-0.712,15.9-22.938,55.523-46.789,71.112-40.222,26.288-81.86,49.186-154.178,48.958-29.738-.094-55.232-9.748-73.527-29.657-26.1-28.4-32.253-70.757-17.676-115.809C23.88,106.251,44.6,60.4,76.919,30.478,94.641,14.07,114.259-1.31,144.777-.032Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#path" style="stroke: #d4d4d4; filter: none; fill: none"/>
+</svg>

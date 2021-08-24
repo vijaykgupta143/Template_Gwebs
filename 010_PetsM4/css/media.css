@@ -1,0 +1,94 @@
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1764px) {}
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1599px) {}
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1365px) {}
+
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1199px) {
+    section.card-pets-train .parent .card-2 {
+        transform: scale(1.2);
+    }
+    section.toper .header-top-contant {
+        margin-top: 50px;
+}
+
+/* max width 768px - 991px  */
+@media screen and (max-width: 991px) {
+    section.toper .header-top-contant {
+        font-size: 1.2rem;
+        width: 100%;
+        margin: auto;
+        max-width: 776px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    section.toper .header-top-contant .icons-area.d-flex {
+        justify-content: center;
+    }
+
+    section.toper {
+        margin-top: 50px;
+    }
+
+    section.pet-activ .parent {
+        text-align: center;
+    }
+
+    section.pet-activ .parent .button {
+        justify-content: center;
+    }
+
+    section.book-tour .all-parent .card-tour:only-child {
+        padding: 0px 0 50px;
+    }
+    section.card-pets-train .parent .card {
+        margin: 0px auto 80px;
+    }
+    section.card-pets-train {
+        padding: 0px;
+    }
+    
+    section.toper .header-top-contant .icons-area h3 {
+        margin: auto;
+    }
+    section.map-area .row .card {
+        margin: auto;
+    }
+}
+
+/* max width 577px - 767px  */
+
+@media screen and (max-width: 767px) {
+    div#collapsibleNavId {
+        max-width: inherit;
+        text-align: center;
+    }
+    header.landingArea nav.navbar.navbar-expand-md.navbar-light {
+        background-color: #fff;
+    }
+
+    
+    section.card-pets-train .parent .pd-off-on {
+        padding: initial;
+    }
+
+
+
+}
+
+/* max width 320px - 576px  */
+
+@media screen and (max-width: 576px) {
+    section.card-pets-train .parent .card-2 {
+        transform: scale(1);
+    }
+    section.card-pets-train .parent .card {
+        margin: 0px auto 20px;
+    }
+}

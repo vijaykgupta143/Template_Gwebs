@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active">
+                <strong style="color: green;">Raw 1</strong> denim you probably haven't heard of them jean shorts
+                Austin. Nesciunt tofu
+                stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure
+                terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american
+                apparel, butcher voluptate nisi qui.
+            </div>
+            <div class="tab-pane">
+                <strong style="color: hotpink;">Raw 2</strong> denim you probably haven't heard of them jean shorts
+                Austin. Nesciunt tofu
+                stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure
+                terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american
+                apparel, butcher voluptate nisi qui.
+            </div>
+            <div class="tab-pane">
+                <strong style="color: blue;">Raw 3</strong> denim you probably haven't heard of them jean shorts Austin.
+                Nesciunt tofu
+                stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure
+                terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american
+                apparel, butcher voluptate nisi qui.
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+    <script>
+        var elementstab = document.querySelectorAll(".nav-tabs .nav-item .nav-link");
+        var elementscontent = document.querySelectorAll(".tab-content .tab-pane");
+
+        function clearClass() {
+            for (var i = 0, len = elementstab.length; i < len; i++) {
+                elementstab[i].classList.remove("active");
+                elementscontent[i].classList.remove("active");
+            }
+        }
+
+        for (var i = 0, len = elementstab.length; i < len; i++) {
+            (function (index) {
+                elementstab[i].onclick = function (event) {
+                    clearClass();
+                    elementstab[index].classList.add("active");
+                    elementscontent[index].classList.add("active");
+                    return false;
+                }
+            })(i);
+
+        }
+    </script>
+</body>
+
+</html>

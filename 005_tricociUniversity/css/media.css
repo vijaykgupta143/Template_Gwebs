@@ -1,0 +1,248 @@
+@media screen and (min-width: 1199px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    section.admission-fin-aid .admission-img {
+        overflow: hidden;
+        padding: 80px 0;
+        margin: 55px 0 0 0;
+    }
+
+    section.admission-fin-aid .admission-img img {
+        transform: scale(1);
+    }
+
+}
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1199px) {
+    section.landing-page-bg .row .bridgeview {
+        max-width: 100%;
+    }
+
+    .career-form {
+        float: none;
+        margin: 0 auto 30px;
+    }
+
+}
+
+/* max width 768px - 991px  */
+@media screen and (max-width: 991px) {
+    section.landing-page-bg {
+        background: url(../Images/header-crousel-3.png) no-repeat scroll center center;
+        background-size: cover;
+    }
+
+    section.about-tricoci-u .row .about-left {
+        max-width: 100%;
+    }
+
+    section.about-tricoci-u .logo-nca {
+        max-width: 100%;
+        margin-bottom: 55px;
+    }
+
+    section.costmology-program .row .costmo-title-left {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    section.costmology-program .costmo-title-right {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    section.instructional-method .row .method-all {
+        margin-left: 0px;
+    }
+
+    section.instructional-method .row .method-all h4 {
+        max-width: 100%;
+    }
+
+    section.instructional-method .row .method-all h6 {
+        max-width: 100%;
+    }
+
+    section.instructional-method .row .method-all p {
+        max-width: 100%;
+    }
+
+    section.start-our-career-2 .start_our_cu h3 {
+        padding-bottom: 20px;
+    }
+
+    section.admission-fin-aid .admission-img {
+        padding: 0;
+    }
+
+    section.admission-fin-aid .admission-left-all {
+        margin: 80px 0px 10px;
+    }
+
+    section.curriculum {
+        background-size: cover;
+    }
+
+    section.admission-fin-aid .admission-left-all .main-title {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    section.admission-fin-aid .admission-left-all ul {
+        margin-left: 0;
+    }
+
+    section.more-option-drm .colu-parent {
+        max-width: 100%;
+    }
+
+    section.footer-form .row .trico-footer-title {
+        width: 100%;
+    }
+
+    section.about-tricoci-u .row .tricoci-u-right {
+        margin-left: 0px;
+    }
+
+    section.about-tricoci-u .tricoci-u-right {
+        width: 100%;
+
+    }
+
+    footer.footer-final .row .footer-content ul {
+        padding-left: 0;
+    }
+
+    footer.footer-final .row .footer-content ul .social {
+        margin: 0;
+    }
+
+}
+
+/* max width 577px - 767px  */
+
+@media screen and (max-width: 767px) {
+    section.more-option-drm .colu-parent {
+        flex-wrap: wrap;
+    }
+
+    section.campuses .row {
+        max-width: 100%;
+    }
+
+    section.campuses .title-or-list {
+        max-width: 100%;
+    }
+
+    section.campuses .title-or-list ul {
+        text-align: center;
+    }
+
+    section.footer-form .row .trico-footer-title {
+        background: none;
+    }
+
+    section.footer-form .row .trico-footer-title .career-form {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    footer.footer-final .row .footer-content ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    footer.footer-final .row .footer-content li {
+        padding: 5px 10px;
+    }
+
+    footer.footer-final .row .footer-content ul .social {
+        display: inline-flex;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    section.curriculum .row .curri-item {
+        margin: 75px 0 20px 0px;
+    }
+
+}
+
+/* max width 376px - 576px  */
+
+@media screen and (max-width: 576px) {
+    section.landing-page-bg .nav .logo {
+        margin: 0 auto;
+    }
+
+    section.landing-page-bg .row .bridgeview h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    section.landing-page-bg .nav .lets-talk-t {
+        display: none;
+    }
+
+    form.form-register {
+        padding: 0;
+    }
+
+    section.costmology-program .costmo-title-right h3 {
+        margin-left: 0;
+    }
+
+    section.costmology-program .costmo-title-right p {
+        margin-left: 0;
+    }
+
+    section.about-tricoci-u .logo-nca p {
+        margin-left: 10px;
+    }
+
+    section.about-tricoci-u .row .tricoci-u-right {
+        padding: 50px 15px;
+    }
+
+    section.instructional-method .row .method-all a {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .start_our_cu .btn.lets-talk {
+        margin: 0;
+        width: 100%;
+        padding: 11px 63px;
+    }
+
+    .admission-left-all .lets-talk {
+        margin: 0;
+        width: 100%;
+    }
+
+    section.curriculum .row .curri-item {
+        margin: 30px 0 20px 0px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    section.instructional-method .row .method-all h4 {
+        font-size: 20px;
+    }
+
+    section.instructional-method .row .method-all h6 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .start_our_cu .btn.lets-talk {
+        margin: 0px;
+    }
+}

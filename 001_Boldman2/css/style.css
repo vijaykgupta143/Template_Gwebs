@@ -1,0 +1,1270 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* active class */
+.envelope-white {
+    color: white;
+}
+
+.active-orange {
+    color: orange;
+}
+
+a:hover {
+    color: #ff9100;
+    transition-duration: 0.5s;
+}
+
+.icon-hover:hover {
+    color: #ff9100;
+    transition-duration: 0.5s;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: table;
+}
+
+
+.container-2 {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: table;
+}
+
+/* top header */
+.top-header {
+    background: #121b25;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+    margin-bottom: -10px;
+}
+
+
+.top-header:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff9100;
+    top: 0px;
+    right: 50%;
+    margin-right: 280px;
+}
+
+.top-header .left {
+    float: left;
+    width: 29%;
+    position: relative;
+    z-index: 2;
+}
+
+.top-header .right {
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+
+.top-header .left p {
+    color: #fff;
+    margin: 0;
+    /* font-size: 14px; */
+    display: inline-block;
+    font-family: 'Poppins';
+    padding: 0px 10px;
+}
+
+.top-header .right p {
+    color: #fff;
+    margin: 0;
+    /* font-size: 13px; */
+    display: inline-block;
+    font-family: 'Poppins';
+    border-right: 2px solid gray;
+    padding: 0px 10px;
+}
+
+.social {
+    display: inline-block;
+}
+
+.social a {
+    color: white;
+    margin: 0px 5px;
+}
+
+.social a:hover {
+    color: white;
+    margin: 0px 5px;
+}
+
+/* header */
+
+header {
+    height: 65px;
+    position: sticky;
+    background-color: #182333;
+    opacity: 0.93;
+    top: 0;
+    z-index: 1;
+    padding: 5px 0px;
+    border-bottom: 0.1px solid gray;
+}
+
+/* header logo navigation */
+nav {
+    display: inline-block;
+    margin-left: 185px;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+    margin: 10px 0px;
+}
+
+header ul {
+    display: inline-flex;
+}
+
+header li {
+    margin: 0px 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* button group float left */
+
+header .btn-group {
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+
+header .radius-50 {
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 32px;
+    background-color: rgb(201, 191, 191, 0.4);
+    margin-left: 5px;
+}
+
+.nav-icon-hover:hover {
+    color: white;
+    background-color: #ff9100;
+}
+
+button.btn-icon {
+    color: #ff9100;
+    height: 30px;
+    padding: 5px 8px;
+    background-color: transparent;
+    border: 1px solid#ff9100;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+button.btn-icon:hover {
+    color: white;
+    background-color: #ff9100;
+    border: 1px solid#ff9100;
+}
+
+/* slide area*/
+
+.slide-area {
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 65px;
+}
+
+.help-slide-content {
+    position: absolute;
+    margin-left: 160px;
+}
+
+.center {
+    text-align: center;
+}
+
+.help-side {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+.time {
+    color: #ff9100;
+    display: inline-flex;
+    padding: 0px 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.help-side .month-day {
+    position: relative;
+    margin-right: 150px;
+}
+
+/* emergency */
+
+.help-side .emer {
+    display: inline-flex;
+    border-left: 1px solid gray;
+    padding: 0px 10px;
+    position: absolute;
+}
+
+.help-side .emergency {
+    margin: 0;
+}
+
+.need-help {
+    font-size: 70px;
+    margin: 0;
+}
+
+p.active {
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Call Number */
+.Number-active {
+    color: #ff9100;
+}
+
+p.call-us-now {
+    margin: 10px auto 20px;
+    font-size: 30px;
+}
+
+/*Help side  Button */
+button.btn-more-d {
+    height: 50px;
+    width: 190px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+button.btn-more-d:hover {
+    background-color: #ffffff;
+    border: 1px solid white;
+    color: black;
+}
+
+/* 3rd part About buldman manteinance */
+
+.about-buld-man {
+    background-image: url(../images/row-bgimage-16.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 100%;
+    color: rgb(24, 51, 47);
+    font-weight: 300;
+    padding: 45px 0px;
+}
+
+/* position relative */
+.work-maintenance {
+    width: 60%;
+}
+
+.work-maintenance svg {
+    color: orange;
+}
+
+.about-buld-text {
+    border-left: 8px solid orange;
+    padding: 0px 25px;
+
+}
+
+.about-buld-man p {
+    color: gray;
+    margin: -15px 0px 0px;
+    font-size: 14px;
+}
+
+.about-buld-text h1 {
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* box-1 */
+
+.About-maintenance {
+    width: 50%;
+    display: inline-table;
+    margin: 14px 0px;
+}
+
+.home-reno {
+    display: inline;
+    font-size: 35px;
+}
+
+.home-reno-text {
+    width: 80%;
+    float: right;
+    display: inline-table;
+    margin: -13px -5px 0px;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+/* box-2 */
+.about-maintencance-all {
+    margin: 40px 0px;
+}
+
+.About-maintenance-2 {
+    width: 50%;
+    float: right;
+    margin: 14px 0px;
+}
+
+.home-reno-2 {
+    display: inline;
+    font-size: 35px;
+}
+
+.home-reno-text-2 {
+    width: 80%;
+    float: right;
+    display: inline-table;
+    margin: -13px -5px 0px;
+}
+
+.get-premiere h4 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.left {
+    text-align: left;
+}
+
+/* Premium Handyman Services */
+.orange-bg {
+    background-color: orange;
+}
+
+.img-big-man {
+    position: absolute;
+    bottom: -7px;
+    right: 0px;
+    align-items: center;
+}
+
+.con-img {
+    position: relative;
+}
+
+/* OUR SERVICES */
+.our-service-bg {
+    background-image: url(../images/row-bgimage-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 100%;
+}
+
+.our-service {
+    text-align: center;
+    width: 100%;
+    margin: 100px auto 5px;
+}
+
+.our-service h5 {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.our-service h3 {
+    color: #182333;
+    font-size: 35px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* border line width 100px height 8px */
+.orange-border-line {
+    background-color: orange;
+    width: 70px;
+    height: 6px;
+    margin: 10px auto;
+}
+
+.look-out-window {
+    margin: 30px auto;
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+    width: 65%;
+}
+
+/* our service list */
+.our-service-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.our-service-list li {
+    width: 20%;
+    float: left;
+    border: 1px solid #bbb;
+    padding: 15px 8px 15px 0px;
+    background-color: white;
+    text-align: center;
+}
+
+.our-service-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.our-service-list svg {
+    margin: 0px 9px;
+}
+
+.our-service-list li:hover {
+    background-color: orange;
+}
+
+.our-service-list a:hover {
+    color: white;
+}
+
+/* Cards Section */
+
+.cards {
+    display: flex;
+    margin: 150px -15px 0px;
+}
+
+.col {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.card-body {
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+
+.cards h5 {
+    color: black;
+    font-size: 20px;
+    margin: 20px auto 0px;
+    font-weight: 400;
+}
+
+.cards p {
+    margin: 5px;
+    font-weight: 300;
+}
+
+.card-footer {
+    margin: 30px 0px;
+}
+
+/* Card Button */
+button.button-cards {
+    background-color: transparent;
+    font-weight: 600;
+    padding: 15px 25px;
+    transition: 0.6s;
+}
+
+button.button-cards:hover {
+    color: white;
+    background-color: rgb(0, 2, 29);
+    font-weight: 600;
+    padding: 15px 25px;
+}
+
+.card-footer svg {
+    margin-left: 5px;
+}
+
+
+/* professional-skill back and before */
+
+.professional-skill {
+    display: flex;
+    width: 100%;
+    padding: 65px 0;
+    position: relative;
+    justify-content: center;
+}
+
+.professional-skill:before {
+    content: '';
+    position: absolute;
+    max-width: 1500px;
+    height: 100%;
+    background: #182333;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    margin-left: -300px;
+    right: 40%;
+}
+
+.professional-skill-image {
+    position: absolute;
+    width: 47%;
+    top: -52px;
+    margin: auto;
+    left: 53%;
+}
+
+.professional-skill-image img {
+    width: 1200px;
+}
+
+/* Our skill Title */
+.our-skill {
+    border-left: 8px solid orange;
+    padding-left: 15px;
+    width: 46%;
+}
+
+.our-skill h5 {
+    margin-bottom: 0;
+}
+
+.our-skill h2 {
+    margin-top: 0;
+    font-size: 37px;
+}
+
+.our-skill-para {
+    color: whitesmoke;
+    width: 45%;
+}
+
+.professional-skill p {
+    color: whitesmoke;
+}
+
+
+/* plumber service box */
+
+.plumber-service {
+    border-left: 5px solid orange;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 46%;
+    margin: 10px 0px;
+}
+
+
+.plumber-service-icon {
+    display: inline;
+    font-size: 60px;
+}
+
+.plumber-service-icon svg {
+    margin: 35px 0px;
+    color: orange;
+}
+
+.plumber-service-text {
+    width: 80%;
+    float: right;
+}
+
+/* Resently complete project Our Latest Projects */
+
+.latest-image-full {
+    text-align: center;
+}
+
+.project .our-service h2 {
+    color: #102328;
+    font-size: 35px;
+    line-height: 10px;
+    font-weight: 500;
+}
+
+.latest-project-images {
+    position: relative;
+    width: 20%;
+    display: inline-flex;
+    margin: 0px -2px;
+    padding: 0px 2px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(13, 10, 29, 0.8);
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+/* overlay hover */
+.latest-project-images:hover .overlay {
+    height: 100%;
+    display: inline;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    height: 100%;
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    display: block;
+    text-align: center;
+}
+
+.border-image-h {
+    position: absolute;
+    border: 2px solid gray;
+    width: 100%;
+    height: 90%;
+    bottom: 10%;
+    margin: 34% 0px;
+}
+
+.overlay a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+
+.overlay-border {
+    height: 3px;
+    width: 20%;
+    background-color: orange;
+    position: absolute;
+    left: 40%;
+}
+
+/* button margin */
+.latest-image-full .btn {
+    margin: 50px auto 100px;
+}
+
+/* Get A Solutions For All Home Services */
+
+.solution-all {
+    background-image: url(../images/row-bgimage-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.solution-contant {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.play-icon a {
+    color: white;
+}
+
+.play-icon a:hover {
+    color: rgb(255, 94, 0);
+}
+
+.play-icon svg {
+    margin: 13px 20px;
+}
+
+.play-icon {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 7% 48%;
+}
+
+.overlay-playicon {
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+    margin: -82px -20px;
+}
+
+.overlay-animation {
+    height: 85px;
+    width: 85px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    margin: -75px -12px;
+    z-index: 1;
+}
+
+/* hover */
+.overlay-animation:hover {
+    transition: 1s;
+    transform: scale(2);
+    opacity: 0;
+}
+
+/* Title Side */
+.home-service-title {
+    line-height: 65px;
+}
+
+.home-service-title h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home-service-title h2 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* free consultation */
+
+.consultation-section {
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.box-parent {
+    height: 600px;
+    background-color: white;
+    position: relative;
+    top: -100px;
+}
+
+.parent-text-form-content {
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    color: #8d9297;
+}
+
+.box-for-text {
+    position: absolute;
+    width: 63%;
+}
+
+.box-for-title {
+    border-left: 5px solid orange;
+    line-height: 20px;
+    padding-left: 25px;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.box-for-title h1 {
+    color: #182333;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+/* form side */
+.form-free-quote .quote-form {
+    color: gray;
+    background-color: whitesmoke;
+    border: none;
+    padding: 15px 30px 15px 5px;
+    margin: 10px 20px 10px 0px;
+    width: 46%;
+}
+
+.form-free-quote .form-service-btn {
+    color: gray;
+    background-color: whitesmoke;
+    width: 96%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+}
+
+.form-free-quote .form-message {
+    background-color: whitesmoke;
+    width: 96%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    height: 120px;
+}
+
+
+.form-free-quote button.btn.get-free-button {
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 96%;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.form-free-quote button.btn.get-free-button:hover {
+    background-color: #182333;
+}
+
+/* get a free quote image */
+
+.box-for-image {
+    position: relative;
+    width: 39%;
+    float: right;
+    height: 600px;
+    background-image: url(../images/col-bgimage-3.jpg);
+}
+
+/* text */
+.box-for-img-text {
+    position: absolute;
+    top: 38%;
+    font-size: 50px;
+    width: 60%;
+    line-height: 63px;
+    left: 10%;
+}
+
+/* button */
+.grow-together {
+    height: 50px;
+    width: 164px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 91%;
+    transition: 0.4s;
+}
+
+.grow-together svg {
+    margin-left: 10px;
+}
+
+.grow-together:hover {
+    background-color: white;
+    color: #182333;
+}
+
+/* Our Big Trusted Partners */
+
+
+.trusted-partners-bg {
+    background-image: url(../images/row-bgimage-11.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.partners-parents {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 90px;
+}
+
+/* Partner image */
+.partner-img-child {
+    width: 40%;
+    display: inline-block;
+}
+
+/* partner text */
+.partner-Text-child {
+    width: 60%;
+    float: right;
+    height: 60%;
+    position: relative;
+    top: 10%;
+}
+
+.partner-Text {
+    border-left: 5px solid orange;
+    line-height: 35px;
+    padding: 1px 25px;
+}
+
+.partner-Text-child h5 {
+    color: gray;
+    margin: auto;
+    font-weight: 400;
+}
+
+.partner-Text-child h1 {
+    margin: auto;
+    font-size: 36px;
+    font-weight: 600;
+    color: #182333;
+}
+
+.partner-Text-child p {
+    color: gray;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Trusted partner site */
+.trusted-partner-site {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.all-partner-site {
+    display: inline-block;
+    width: 30%;
+    margin: 40px 20px 30px 0px;
+}
+
+.shopfi-site {
+    border: none;
+}
+
+.magento-site {
+    border: none;
+}
+
+/* footer */
+
+.footer-bg-img {
+    background-image: url(../images/footer-bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.subscribe-our-letter {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    bottom: 65px;
+}
+
+.subscribe-all-parent {
+    width: 95%;
+    margin: auto;
+    color: #182333;
+    padding-top: 45px;
+    font-weight: 300;
+}
+
+.subscribe-to-news {
+    width: 50%;
+    height: 80px;
+    display: inline-block;
+    line-height: 5px;
+}
+
+.subscribe-icon {
+    width: 10%;
+    height: 100%;
+    color: orange;
+    font-size: 58px;
+    display: inline-block;
+}
+
+.news-letter {
+    width: 80%;
+    float: right;
+    margin-right: 30px;
+}
+
+.news-letter h2 {
+    font-weight: 600;
+}
+
+.news-letter p {
+    color: gray;
+    font-size: 13px;
+}
+
+/* Footer Email Subscribe */
+.input-and-button {
+    width: 50%;
+    float: right;
+}
+
+.input-and-button input {
+    border: none;
+    background-color: whitesmoke;
+    width: 75%;
+    padding: 16px;
+}
+
+.input-and-button button {
+    width: 24%;
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: orange;
+    margin-left: -4px;
+}
+
+.input-and-button button:hover {
+    background-color: #182333;
+}
+
+.footer-content {
+    width: 100%;
+    /* height: 80%; */
+    display: flex;
+}
+
+/* footer 4 boxes */
+.footer-content-1 {
+    width: 25%;
+    display: inline-block;
+    line-height: 25px;
+}
+
+/* footer box 1 */
+
+.footer-content-parent {
+    width: 85%;
+}
+
+.footer-content p {
+    color: lightgray;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.work-day {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.float-right {
+    float: right;
+}
+
+.work-day-monday-to {
+    margin-right: 18px;
+    border-bottom: 1px solid rgba(177, 176, 176, 0.1);
+}
+
+.footer-content h2 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* border left 4px orange color */
+
+.border-left-4px-orng {
+    border-left: 4px solid orange;
+    padding-left: 15px;
+}
+
+/* end */
+
+/* box 2 */
+.footer-content-2 {
+    width: 25%;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.footer-our-service {
+    margin: 0px 0px 4px 30px;
+}
+
+.footer-content-parent-2 {
+    width: 96%;
+    margin-left: -30px;
+}
+
+.footer-list-1 li {
+    list-style-type: none;
+    margin: 15px 0px 0px -10px;
+    font-size: 15px;
+}
+
+.footer-list-1 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-list-1 a:hover {
+    color: orange;
+}
+
+.footer-list-1 {
+    width: 50%;
+    float: left;
+}
+
+
+/* Box-3 */
+.footer-content-3 {
+    width: 25%;
+    display: inline-block;
+    line-height: 25px;
+}
+
+h1.active-orange {
+    margin: 25px 0px;
+    font-weight: 600;
+}
+
+.footer-content-parent-3 button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 85%;
+    padding: 16px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.footer-content-parent-3 button:hover {
+    background-color: white;
+    color: #182318;
+}
+
+/* box-4 */
+.footer-content-4 {
+    width: 25%;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.footer-flickr-images {
+    width: 100%;
+    margin: 22px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-flickr-images img {
+    width: 30%;
+    margin: 4px;
+    height: 80px;
+}
+
+/* footer last */
+
+.copyright {
+    border-top: 1px solid rgba(204, 204, 204, 0.1);
+    display: flex;
+    padding-top: 5px;
+    margin-top: 50px;
+    color: lightgray;
+}
+
+.copyright-para {
+    width: 100%;
+}
+
+.copyright-para a {
+    color: white;
+    text-decoration: none;
+}
+
+/* footer icon */
+.copyright-social-icon {
+    width: 100%;
+}
+
+.copyright-social-icon svg {
+    color: gray;
+    float: right;
+    margin: 20px 7px;
+    font-size: 20px;
+}
+
+/* End */
+
+/* display- fixed icon */
+.setting-icon-display-fixed svg {
+    color: white;
+    background-color: orange;
+    font-size: 30px;
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 2px;
+}
+
+.angle-up-display-sticky svg {
+    position: fixed;
+    background-color: orange;
+    z-index: 1;
+    right: 1%;
+    bottom: 5%;
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.border-right-1px-gray {
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
+}

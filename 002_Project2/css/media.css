@@ -1,0 +1,159 @@
+/* max width 992px - 1200px  */
+
+@media screen and (max-width: 1199px) {
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .archit-news::before {
+        width: 70%;
+        left: 27%;
+    }
+
+    .technology-title::before {
+        width: 60%;
+        left: 40%;
+    }
+
+    .archit-news-2::before {
+        width: 80%;
+        left: 17%;
+    }
+
+}
+
+/* max width 768px - 991px  */
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .technology-title::before {
+        width: 60%;
+        left: 40%;
+    }
+
+    .archit-news-2::before {
+        width: 80%;
+        left: 17%;
+    }
+
+    .archit-body {
+        width: 100%;
+    }
+
+    .technology-sidebar {
+        width: 100%;
+    }
+
+
+}
+
+/* max width 577px - 767px  */
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .archit-news::before {
+        width: 100%;
+        left: 0%;
+        top: 117%;
+        background-color: coral;
+    }
+
+    .technology-title::before {
+        width: 60%;
+        left: 40%;
+    }
+
+    .archit-news-2::before {
+        width: 80%;
+        left: 17%;
+    }
+
+    .archit-news {
+        color: yellow;
+        text-align: center;
+        font-size: 25px;
+        background-color: blue;
+    }
+
+    .image-title {
+        bottom: 25%;
+        font-family: serif;
+        text-align: -webkit-center;
+        width: 100%;
+        left: 0;
+    }
+
+    .image-title .archit-orange {
+        font-size: 25px;
+    }
+
+    .archit-news-2 {
+        color: darkred;
+        background-color: oldlace;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .archit-news-2::before {
+        width: 100%;
+        left: 0;
+        background-color: brown;
+        top: 100%;
+    }
+
+    .technology-title {
+        color: black;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        background-color: aquamarine;
+    }
+
+    .technology-title::before {
+        display: none;
+    }
+
+
+}
+
+/* max width 375px - 576px  */
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .archit-body {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .archit-img-all {
+        width: 100%;
+        display: unset;
+        margin: 0px -10px;
+    }
+
+    .archit-img-all .col {
+        padding: 0px 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .archit-1 .image-3 {
+        margin-bottom: 30px;
+    }
+
+
+}

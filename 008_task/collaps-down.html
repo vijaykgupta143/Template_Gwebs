@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <style>
+        .parent {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgb(228, 228, 228);
+        }
+
+        .parent .collaps-btn {
+            background-color: rgb(119, 119, 119);
+            color: white;
+            padding: 15px;
+            width: 100%;
+            border: 1px solid rgb(228, 228, 228);
+        }
+
+        .active,
+        .collaps-btn:hover {
+            background-color: rgb(83, 81, 81);
+        }
+
+        .parent .content {
+            /* display: none; */
+            max-height: 0;
+            overflow: hidden;
+            transition: all 1s;
+        }
+
+        .parent .collaps-btn:after {
+            content: '\002B';
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .parent .collaps-btn:focus:after {
+            content: '\2212';
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <!-- 1st -->
+        <button type="button" class="collaps-btn">1st. Content</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <button type="button" class="collaps-btn">2nd. Content</button>
+        <div class="content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, excepturi illo. Praesentium ipsum nobis
+                quibusdam accusantium? Quia molestias excepturi non alias aut sapiente recusandae placeat fuga aliquid
+                incidunt. Placeat, tenetur.</p>
+        </div>
+        <button type="button" class="collaps-btn">3rd. Content</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+
+    <script>
+        // var head = document.querySelectorAll(".parent .contant h2.header .btn");
+        // var contant = document.querySelectorAll(".parent .item-content");
+
+        // function clearClass() {
+        //     for (var i = 0; i < head.length; i++) {
+        //         head[i].classList.remove("active1");
+        //         contant[i].classList.remove("active1");
+        //     }
+        // }
+
+        // for (var i = 0; i < head.length; i++) {
+        //     (function (index) {
+        //         head[i].onclick = function (event) {
+        //             clearClass();
+        //             head[index].classList.add("active1");
+        //             contant[index].classList.add("active1");
+        //             return false;
+        //         }
+        //     })(i);
+
+        // }
+
+
+
+        // 2nd. function
+
+        // var coll = document.getElementsByClassName("collaps-btn");
+
+        // for (var i = 0; i < coll.length; i++) {
+        //     coll[i].addEventListener("click", function () {
+        //         var content = this.nextElementSibling;
+
+        //         if (content.style.display == "block") {
+        //             content.style.display = "none";
+        //         } else if (content.style.display = "none") {
+        //             content.style.display = "block";
+        //         } else {
+        //             content.style.display = "none";
+        //         }
+        //     });
+        // }
+
+
+
+        //3rd function
+        var coll = document.getElementsByClassName("collaps-btn");
+
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

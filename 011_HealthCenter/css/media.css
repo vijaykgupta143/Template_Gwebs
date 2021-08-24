@@ -1,0 +1,119 @@
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1764px) {}
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1599px) {}
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1365px) {}
+
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 1024px) {
+    header.header a.btn-outline-black {
+        font-size: 12px;
+    }
+
+    section.landing-area .content-parent .row h2 {
+        font-size: 2rem;
+    }
+
+    section.emoji {
+        padding: 90px 0;
+    }
+
+}
+
+/* max width 768px - 991px  */
+@media screen and (max-width: 991px) {}
+
+/* max width 577px - 767px  */
+
+@media screen and (max-width: 767px) {
+    section.emoji .parent .smile-emoji a {
+        display: block;
+    }
+
+    header.header a.btn-outline-black {
+        padding: 15px;
+    }
+
+    header.header {
+        padding: 29px 0px;
+        margin: 0 10px;
+    }
+
+    header.header .logo {
+        width: 150px;
+    }
+
+    header.header .appointment {
+        margin: 0;
+    }
+
+    header.header .logo a img {
+        height: 100%;
+        width: 100%;
+    }
+
+    section.landing-area {
+        min-height: 440px;
+    }
+
+    section.landing-area .content-parent h2 {
+        font-size: 32px;
+    }
+
+    section.landing-area .content-parent p {
+        font-size: 16px;
+        word-spacing: normal;
+        padding: 0 10px;
+        letter-spacing: 0;
+        line-height: 1.8;
+    }
+}
+
+/* max width 320px - 575px  */
+
+@media screen and (max-width: 576px) {
+    header.header a.btn-outline-black {
+        padding: 10px 5px;
+        font-size: 9px;
+    }
+
+    section.landing-area .content-parent p {
+        font-size: 14px;
+    }
+
+    div#exampleModal {
+        padding-left: 0px;
+    }
+
+    section.emoji .parent .smile-emoji .modal.show .modal-dialog .modal-content .modal-body .img-box {
+        display: block;
+    }
+
+}
+
+/* max width 320px  */
+@media screen and (max-width: 320px) {
+    header.header {
+        display: block;
+        padding: 0px;
+        margin: 15px 10px;
+    }
+
+    header.header .logo {
+        margin-bottom: 15px;
+    }
+
+    section.landing-area {
+        min-height: 290px;
+    }
+
+    section.landing-area .content-parent {
+        transform: translate(-50%, -45%);
+    }
+}

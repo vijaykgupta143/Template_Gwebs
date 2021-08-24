@@ -1,0 +1,832 @@
+/* max width 992px - 1200px  */
+
+@media screen and (max-width: 1199px) {
+
+    .container {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .navbar .nav-items ul li {
+        margin-left: 15px;
+    }
+
+    a.button-login {
+        margin-left: 15px;
+
+    }
+
+    .orange-button {
+        width: 22%;
+        padding: 0;
+    }
+
+    .safty-img {
+        width: 40%;
+        float: left;
+        margin: 15px 0px 0px;
+        padding-left: 0px;
+    }
+
+    .safty-text {
+        width: 60%;
+        float: left;
+        text-align: initial;
+        padding: 0px;
+        margin: -5px 5px -10px -5px;
+    }
+
+    .customer-all-c .customers-say-tittle h1 {
+        font-size: 45px;
+
+    }
+
+    .customer-all-c .customers-say-tittle h1::before {
+        width: 25px;
+        height: 15px;
+        top: 40px;
+        right: 25px;
+    }
+
+    .customers-slide {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customers-slide .first-box {
+        background-color: #d64e24;
+        margin: 80px 32px 0;
+        flex: 0 0 42%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .customers-slide .other-box {
+        background-color: #c3b5a4;
+        color: black;
+    }
+
+    .gallery-left-s {
+        width: 100%;
+        margin: auto;
+    }
+
+    .gallery-l-img::before {
+        width: 45%;
+        height: 22px;
+        bottom: -15px;
+    }
+
+    .gallery-l-img img {
+        width: 100%;
+        object-fit: unset;
+        height: 100%;
+    }
+
+    .elevator-lift {
+        width: 100%;
+        margin: 40px 0px;
+    }
+
+    .gallery-logos {
+        flex-wrap: nowrap;
+    }
+
+    .gallery-right-s {
+        width: 100%;
+        margin: 40px 0px;
+        text-align: center;
+    }
+
+    .gallery-right-s .gallery-tittle P::before {
+        right: 35%;
+        bottom: -5px;
+    }
+
+    .gallery-images {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 35px -35px;
+    }
+
+    .images-r-box {
+        flex: 50%;
+        padding: 35px 35px;
+        position: relative;
+    }
+
+    .images-r-box::before {
+        content: "";
+        background-color: #d64e24;
+        width: 230px;
+        height: 20px;
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .gallery-images .images-r-box img {
+        width: 415px;
+        height: 415px;
+    }
+
+
+
+
+    .images-r-box::before {
+        bottom: 20px;
+    }
+
+    .gallery-all-s .button_full {
+        margin: 100px auto;
+        text-align: center;
+    }
+
+}
+
+/* max width 768px - 991px  */
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .top-logo img {
+        width: 200px;
+    }
+
+    .navbar {
+        padding: 10px 0px;
+    }
+
+    .navbar .nav-items ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        line-height: 3;
+        padding: 0;
+    }
+
+    .navbar .nav-items ul li {
+        padding-left: 25px;
+        margin: 0;
+    }
+
+    a.button-login {
+        margin-left: 0;
+        float: right;
+        padding: 8px 30px;
+    }
+
+    .header-content .monitor-any {
+        width: 60%;
+    }
+
+    .four-buttons {
+        display: flex;
+        width: 100%;
+        padding-top: 115px;
+        flex-wrap: wrap;
+    }
+
+    .orange-button {
+        padding: 6px 65px;
+        margin: 10px 15px;
+        flex: 45%;
+    }
+
+    .safty-img {
+        width: 40%;
+        float: left;
+        margin: 10px 0px 0px;
+        padding-left: 0px;
+    }
+
+    .safty-text {
+        width: 60%;
+        float: left;
+        text-align: initial;
+        padding: 0px;
+        margin: -5px 5px -10px -5px;
+    }
+
+    .about-head {
+        margin-top: 115px;
+        display: block;
+        margin-bottom: 113px;
+    }
+
+    .about-head .about-top {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .about-head .about-top .about-1 {
+        padding: 0;
+    }
+
+    .about-img-rt {
+        width: 100%;
+        margin-top: 0;
+        display: inline-block;
+    }
+
+    .about-img-rt-main {
+        width: 100%;
+        position: relative;
+    }
+
+    .about-img-rt img {
+        width: 100%;
+    }
+
+    .about-img-rt-main::before {
+        bottom: -15px;
+    }
+
+    .customer-all-c {
+        padding: 50px 0px;
+    }
+
+    .customer-all-c .customers-say-tittle h1::before {
+        width: 30px;
+        height: 15px;
+        top: 87%;
+        right: 37%;
+    }
+
+    .customes-say-p {
+        width: 95%;
+    }
+
+
+    .customers-slide {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customers-slide .first-box {
+        margin: 50px 0px;
+        flex: 100%;
+    }
+
+    .customers-slide .other-box {
+        background-color: #c3b5a4;
+        color: black;
+    }
+
+    .gallery-left-s {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .gallery-l-img::before {
+        width: 45%;
+        height: 22px;
+        bottom: -15px;
+    }
+
+    .gallery-l-img img {
+        width: 100%;
+        object-fit: unset;
+        height: 100%;
+    }
+
+    .elevator-lift {
+        width: 100%;
+        margin: 40px 0px;
+    }
+
+    .gallery-logos {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .gallery-right-s {
+        width: 100%;
+        margin: 40px 0px;
+        text-align: center;
+    }
+
+    .gallery-right-s .gallery-tittle P::before {
+        right: 227px;
+        bottom: 0px;
+    }
+
+    .gallery-images {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    .images-r-box {
+        flex: 50%;
+        padding: 35px 35px;
+        position: relative;
+    }
+
+    .images-r-box::before {
+        content: "";
+        background-color: #d64e24;
+        width: 230px;
+        height: 20px;
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .gallery-images .images-r-box img {
+        width: 415px;
+        height: 415px;
+    }
+
+
+    .images-r-box::before {
+        bottom: 20px;
+    }
+
+    .gallery-all-s .button_full {
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    .chat-about-p-all {
+        padding: 30px 0;
+        display: block;
+    }
+
+    .chat-about-p-all .abt-side {
+        width: 100%;
+        line-height: 1.4;
+    }
+
+    .chat-about-p-all .abt-side .about-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .chat-about-p-all .abt-side .about-text .btn {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .chat-abt-form {
+        width: 100%;
+        padding: 10px 30px;
+        margin-top: 50px;
+        line-height: 1.75;
+    }
+
+    button.btn.free-report {
+        font-size: 24px;
+        width: 50%;
+        height: 75px;
+        margin-top: 55px;
+    }
+
+    .footer-links {
+        width: 50%;
+    }
+
+    .footer-social {
+        width: 50%;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+/* max width 577px - 767px  */
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        max-width: 100%;
+    }
+
+    .top-logo img {
+        width: 100%;
+    }
+
+    .navbar .nav-items {
+        float: right;
+        display: none;
+    }
+    .header-content .monitor-any {
+        width: 60%;
+    }
+
+    .header-content .monitor-any p {
+        font-weight: 200;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+
+    .four-buttons {
+        width: 100%;
+        padding-top: 115px;
+    }
+    .orange-button {
+        padding: 7px 65px;
+        margin: 30px 15px;
+        flex: 45%;
+    }
+
+    .safty-img {
+        width: 50%;
+    }
+
+    .safty-text {
+        width: 50%;
+    }
+
+    .about-head {
+        margin-top: 105px;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .customer-all-c .customers-say-tittle h1 {
+        font-size: 30px;
+    }
+
+    .customer-all-c .customers-say-tittle h1::before {
+        width: 25px;
+        height: 15px;
+        top: 86%;
+        right: 38%;
+    }
+
+    .customer-all-c {
+        padding: 50px 0px 0px;
+    }
+
+    .gallery-right-s .gallery-tittle P::before {
+        right: 152px;
+    }
+
+    .images-r-box {
+        flex: 100%;
+        padding: 35px 0px;
+        position: relative;
+    }
+
+    .gallery-all-s .button_full {
+        margin: 0px auto 50px;
+    }
+
+    .gallery-logos {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: -10px auto;
+    }
+
+    .gallery-images .images-r-box img {
+        width: 100%;
+    }
+
+    .chat-about-p-all .abt-side .about-text .btn {
+        font-size: 18px;
+        width: 50%;
+        height: 60px;
+    }
+
+    .chat-about-p-all .abt-side .about-text .btn span {
+        font-size: 16px;
+    }
+
+    button.btn.free-report {
+        font-size: 20px;
+        width: 50%;
+        height: 60px;
+        margin-top: 40px;
+    }
+
+    .footer-content {
+        display: block;
+        justify-content: center;
+        line-height: 2;
+        color: black;
+        padding-top: 45px;
+    }
+
+    .footer-links {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .footer-social {
+        width: 50%;
+        float: right;
+        text-align: end;
+    }
+    .footer-social li{
+        float: right;
+    }
+
+    .footer-contact {
+        text-align: left;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0px 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        color: black;
+    }
+
+    .footer-copyright {
+        flex: 50%;
+        text-align: right;
+    }
+
+    .term-condition {
+        text-align: right;
+        flex: 50%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* max width 375px - 576px  */
+
+@media screen and (max-width: 576px) {
+
+
+    .header-content .monitor-any {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-content .monitor-any p {
+        font-weight: 200;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .header-content .monitor-any a {
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+
+    .four-buttons {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 40px;
+    }
+
+    .orange-button {
+        width: 75%;
+        padding: 5px 30px;
+        margin: 35px 0px;
+        font-weight: 400;
+        display: inline-block;
+    }
+
+    .about-head {
+        text-align: center;
+        margin-top: 75px;
+    }
+
+    .about-head .about-top {
+        padding: 10px;
+        margin: 0px 0px 40px;
+    }
+
+    .about-head .about-top .about-1 {
+        padding: 0;
+    }
+
+
+    .about-img-rt {
+        width: 100%;
+        margin-top: -45px;
+    }
+
+    .about-img-rt-main {
+        width: 100%;
+        float: none;
+    }
+
+    .about-img-rt-main::before {
+        content: " ";
+        width: 100%;
+        bottom: -14px;
+    }
+
+    .about-img-rt img {
+        width: 100%;
+        float: none;
+    }
+
+    .customer-all-c {
+        padding: 40px 0px 10px;
+    }
+
+    .customers-say {
+        width: 100%;
+        height: auto;
+    }
+
+    .customer-all-c .customers-say-tittle h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .customer-all-c .customers-say-tittle h1::before {
+        width: 25px;
+        height: 15px;
+        top: 117px;
+        right: 103px;
+    }
+
+    .customes-say-p {
+        width: 90%;
+
+    }
+
+    .customers-slide {
+        margin-top: 30px;
+    }
+
+    .customers-slide .first-box {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .first-box .box-title {
+        margin: 75px 20px 0px;
+        font-size: 18px;
+    }
+
+    .elevator-lift h3 {
+        margin: auto;
+        text-align: left;
+        font-size: 28px;
+    }
+
+    .gallery-left-s {
+        margin: 0%;
+        width: 100%;
+    }
+
+    .gallery-l-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-l-img::before {
+        width: 75%;
+        height: 20px;
+        bottom: -14px;
+    }
+
+    .elevator-lift {
+        color: #000;
+        font-size: 18px;
+        width: 90%;
+        font-weight: 300;
+        margin: 30px auto;
+    }
+
+    .gallery-logos {
+        display: block;
+        text-align: center;
+        flex-wrap: unset;
+        align-items: center;
+        margin: 0 0 20px;
+    }
+
+    .logo-box {
+        flex: 50%;
+        padding: 10px 30px;
+    }
+
+    .gallery-right-s {
+        width: 100%;
+        margin: 35px 0 0;
+        float: initial;
+        text-align: center;
+    }
+
+    .gallery-right-s .gallery-tittle P::before {
+        height: 15px;
+        width: 33px;
+        right: 52px;
+        bottom: 8px;
+    }
+
+    .images-r-box {
+        padding: 20px 0px;
+    }
+
+    .images-r-box::before {
+        width: 75%;
+        height: 20px;
+        bottom: 4px;
+    }
+
+    .gallery-all-s .button_full {
+        margin: 35px auto;
+    }
+
+    .gallery-all-s button.view-all {
+        width: 270px;
+        height: 50px;
+    }
+
+    .chat-about-project {
+        height: auto;
+        background-color: #504738;
+    }
+
+    .chat-about-p-all {
+        display: block;
+        padding: 15px 0px;
+    }
+
+    .chat-about-p-all .abt-side .about-text h3 {
+        font-size: 45px;
+    }
+
+    .chat-about-p-all .abt-side {
+        width: 100%;
+        line-height: unset;
+        text-align: center;
+    }
+
+    .chat-about-p-all .abt-side .about-text .btn {
+        width: 270px;
+        height: 50px;
+    }
+
+    .chat-about-p-all .abt-side .about-text .btn span,
+    svg {
+        margin-right: 8px;
+        font-weight: 100;
+    }
+
+    .chat-abt-form {
+        width: 100%;
+        padding: 20px 0px;
+        line-height: 1;
+        margin-top: 15px;
+    }
+
+    button.btn.free-report {
+        width: 270px;
+        height: 50px;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        flex-wrap: wrap;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: -15px;
+    }
+}
+@media screen and (max-width: 375px) {
+
+}

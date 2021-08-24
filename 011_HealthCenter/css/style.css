@@ -1,0 +1,212 @@
+body {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+header.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 8px;
+    align-items: center;
+    margin: auto 30px;
+}
+
+header.header .logo a img {
+    height: 120px;
+    width: auto;
+}
+
+header.header .appointment {
+    margin-right: 18px;
+    margin-top: -8px;
+}
+
+header.header a.btn-outline-black {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.2em;
+    padding: 17px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ef2525 none repeat scroll 0 0;
+    border: 1px solid rgba(29, 29, 29, 0.2);
+    transition: all 0.4s;
+    z-index: 99;
+}
+
+header.header a.btn-outline-black:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+    border-color: #1d1d1d;
+    box-shadow: 0 0 3px rgb(0 0 0 / 20%), 0 0 5px rgb(0 0 0 / 20%);
+}
+
+/* section.landing-area */
+
+section.landing-area {
+    background: url(../images/slide-physical_therapy-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 348px;
+    z-index: -1;
+}
+
+section.landing-area::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+section.landing-area .content-parent {
+    color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -26%);
+    letter-spacing: -0.9px;
+    width: 100%;
+}
+
+section.landing-area .content-parent h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    word-spacing: -1px;
+}
+
+section.landing-area .content-parent p {
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+/* Emoji section */
+
+section.emoji {
+    min-height: 465px;
+    padding: 28px 0;
+}
+
+section.emoji .parent {
+    max-width: 510px;
+    margin: auto;
+}
+
+section.emoji .parent .smile-emoji a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+section.emoji .parent .smile-emoji a:hover {
+    text-decoration: underline;
+}
+
+section.emoji .parent .smile-emoji a .box {
+    width: 150px;
+    height: 150px;
+    background: #FFC107;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #FFC107;
+    box-shadow: 0 5px rgb(31 28 28 / 73%);
+    margin: 0 auto 16px;
+}
+
+section.emoji .parent .smile-emoji a .box .eye {
+    width: 17px;
+    height: 40px;
+    background: #5c3a13;
+    display: inline-flex;
+    border-radius: 50%;
+    margin: 30px 15px 0px;
+}
+
+section.emoji .parent .smile-emoji a .box .mouth {
+    width: 90px;
+    height: 40px;
+    margin: 15px auto;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: #5c3a13;
+}
+
+section.emoji .parent .smile-emoji a .box .tith {
+    width: 85px;
+    height: 10px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+    border-top: 2px solid #000;
+}
+
+section.emoji .parent .smile-emoji a .box .mouth.angry {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    width: 60px;
+    border-top: 2px solid #000;
+    background: transparent;
+    margin: 25px auto 0
+}
+
+section.emoji .parent .smile-emoji a .box .eye.angry {
+    width: 20px;
+    height: 27px;
+    margin: 50px 15px 0px;
+}
+
+section.emoji .parent .smile-emoji a h4 {
+    font-weight: 500;
+    font-family: system-ui;
+    line-height: 1.6;
+    text-shadow: rgb(0 0 0 / 20%) 0px 1px 2px;
+}
+
+section.emoji .parent .smile-emoji .modal.show .modal-dialog {
+    max-width: 800px;
+    padding-top: 20px;
+}
+
+section.emoji .parent .smile-emoji .modal.show .modal-dialog .modal-content .modal-title {
+    color: grey;
+    text-shadow: none;
+    font-weight: 700;
+}
+
+section.emoji .parent .smile-emoji .modal.show .modal-dialog .modal-content .modal-body .img-box {
+    display: inline-flex;
+}
+
+section.emoji .parent .smile-emoji .modal.show .modal-dialog .modal-content .modal-footer button.btn.btn-secondary {
+    background: #04a0e1;
+    border: 1px solid #dc3545;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 0%;
+    text-transform: uppercase;
+}
+
+section.emoji .parent .smile-emoji .modal.show .modal-dialog .modal-content .modal-footer button.btn.btn-secondary:hover {
+    background: #dc3545;
+
+}

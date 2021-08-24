@@ -1,0 +1,538 @@
+/* max width 992px - 1200px  */
+
+@media screen and (max-width: 1199px) {
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .top-header:before {
+        content: '';
+        width: 100%;
+        height: auto;
+        display: none;
+
+    }
+
+    .top-header .left {
+        float: left;
+        width: 100%;
+    }
+
+    .top-header .right {
+        text-align: inherit;
+        width: 100%;
+    }
+
+    nav {
+        display: inline-block;
+        margin: auto;
+    }
+
+    .help-slide-content {
+        margin-left: 75px;
+    }
+
+    header .btn-group {
+        top: -65px;
+        position: absolute;
+        right: 10px;
+    }
+
+    /* big image man  */
+    .img-big-man {
+        position: absolute;
+        bottom: -7px;
+        right: 18px;
+    }
+
+    .professional-skill:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        background: #182333;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .our-service-list li {
+        padding: 15px;
+    }
+
+    .plumber-service {
+        border-left: 5px solid orange;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 46%;
+        margin: 10px 0px;
+    }
+
+    .plumber-service-icon {
+        display: inline;
+        font-size: 50px;
+    }
+
+    .plumber-service-text {
+        width: 84%;
+        float: right;
+        font-size: 14px;
+    }
+
+    .get-premiere h4 {
+        font-size: 26px;
+    }
+
+    .look-out-window {
+        font-size: 15px;
+    }
+
+    /* form */
+    .form-free-quote .quote-form {
+        margin: 10px 16px 10px 0px;
+    }
+
+    .box-parent {
+        top: 0;
+    }
+
+    .partner-img-child {
+        width: 38%;
+
+    }
+
+    .all-partner-site {
+        margin: 20px 10px 0px 0px;
+        padding-right: 10px;
+    }
+
+    .trusted-partners-bg {
+        height: 700px;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+    .footer-list-1 li {
+        font-size: 13px;
+    }
+
+    .footer-flickr-images img {
+        width: 50px;
+        margin: 6px;
+        height: 50px;
+    }
+
+    .footer-content-parent-3 {
+        width: 97%;
+        line-height: 31px;
+    }
+
+}
+
+/* max width 768px - 991px  */
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .top-header {
+        display: none;
+    }
+
+    header {
+        height: 55px;
+        position: sticky;
+        opacity: 1;
+    }
+
+    .logo {
+        width: 30%;
+        margin: 0;
+    }
+
+    nav {
+        display: inline-block;
+        margin: auto;
+        display: none;
+    }
+
+    .slide-area {
+        background-repeat: no-repeat;
+        height: 357px;
+        position: unset;
+    }
+
+    .help-side {
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .need-help {
+        font-size: 50px;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    .work-maintenance {
+        width: 100%;
+    }
+
+    /* ABOUT BOLDMAN */
+    /* We Build for Your Comfort */
+
+    .About-maintenance {
+        width: 100%;
+    }
+
+
+    .home-reno-text {
+        width: 92%;
+    }
+
+    /* box-2 */
+
+    .About-maintenance-2 {
+        width: 100%;
+    }
+
+    .home-reno-text-2 {
+        width: 92%;
+    }
+
+    .get-premiere h4 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    /* Premium Handyman Services */
+    .orange-bg {
+
+        margin-top: 84%;
+    }
+
+    .img-big-man {
+        bottom: 110px;
+        right: 25%;
+    }
+
+    /* Our Service What You Will Get Form Us Check It */
+
+    .our-service-bg {
+        height: 1050px;
+    }
+
+    .our-service {
+        margin: 60px auto 5px;
+    }
+
+    .look-out-window {
+        font-size: 16px;
+        width: 60%;
+    }
+
+    .our-service-list li {
+        padding: 15px 0px;
+        margin: 10px 2px;
+        width: 30%;
+    }
+
+    .cards {
+        display: inline-flex;
+        margin: 30px 0px 20px;
+    }
+
+    /* professional-skill */
+
+
+    .professional-skill {
+        height: 1200px;
+    }
+
+    .professional-skill:before {
+        right: 0%;
+    }
+
+    .professional-skill-image {
+        width: 100%;
+        top: 600px;
+        left: 0;
+    }
+
+    .our-skill {
+        width: 100%;
+    }
+
+    .our-skill-para {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .solution-contant {
+        width: 80%;
+    }
+
+    .plumber-service {
+        padding-left: 15px;
+        width: 100%;
+    }
+
+    .plumber-service-text {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* Solution */
+
+    .play-icon {
+        margin: 4% 45%;
+    }
+
+    .home-service-title {
+        line-height: 50px;
+    }
+
+    .home-service-title h2 {
+        font-size: 44px;
+    }
+
+    .solution-all {
+        height: 350px;
+        width: 100%;
+        background-position: center;
+    }
+
+    /* free consulation */
+    .consultation-section {
+        height: 1040px;
+        background-color: white;
+    }
+
+    .box-parent {
+        top: 0;
+    }
+
+    .latest-image-full .btn {
+        margin: 50px auto 65px;
+    }
+
+    .form-free-quote .form-service-btn {
+        width: 100%;
+    }
+
+    .form-free-quote .form-message {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form-free-quote button.btn.get-free-button {
+        width: 100%;
+        padding: 15px;
+        transition: 0.3s;
+    }
+
+    .box-for-text {
+        width: 100%;
+    }
+
+    .form-free-quote .quote-form {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .parent-text-form-content {
+        width: 100%;
+        padding: 5px;
+        margin: 27px auto;
+        color: #8d9297;
+    }
+
+    /* box -img */
+    .box-for-image {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 720px;
+        height: 320px;
+    }
+
+    /* img end */
+
+    .box-for-img-text {
+        top: 0%;
+        font-size: 40px;
+        width: 30%;
+        line-height: 50px;
+        left: 20px;
+    }
+
+    /* our big partner */
+    /* image */
+    .trusted-partners-bg {
+        height: 1140px;
+    }
+
+    .partners-parents {
+        top: 50px;
+    }
+
+    .partner-img-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Text */
+    .partner-Text-child {
+        width: 100%;
+        margin-top: 80px;
+        position: unset;
+    }
+
+    .partner-Text-child p {
+        font-size: 17px;
+    }
+
+    .all-partner-site {
+        margin: 40px 10px 30px 10px;
+    }
+
+    /* footer */
+    .subscribe-to-news {
+        line-height: 24px;
+    }
+
+    .news-letter {
+        margin: -40px 0px;
+    }
+
+    .subscribe-icon {
+        width: 20%;
+        font-size: 50px;
+    }
+
+    .news-letter h2 {
+        margin-bottom: -10px;
+    }
+
+    .input-and-button input {
+        width: 58%;
+        padding: 15px;
+    }
+
+    .input-and-button button {
+        width: 40%;
+        padding: 15px;
+        margin-left: -4px;
+    }
+
+    /* footer box */
+    .footer-bg-img {
+        background-image: url(../images/footer-bg.jpg);
+        width: 100%;
+        height: 870px;
+        background-size: cover;
+        object-fit: contain;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-content-1 {
+        flex: 50%;
+        line-height: 25px;
+    }
+
+    .footer-content-2 {
+        flex: 50%;
+        line-height: 25px;
+    }
+
+    .footer-content-3 {
+        flex: 50%;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    .footer-content-4 {
+        flex: 50%;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    .copyright-social-icon {
+        width: 50%;
+    }
+
+
+}
+
+/* max width 576px - 767px  */
+@media screen and (max-width: 767px) {
+    .help-slide-content {
+        position: unset;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    p.active {
+        font-size: 25px;
+    }
+
+    .help-side .emer {
+        font-size: 15px;
+    }
+
+    .need-help {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    p.call-us-now {
+        margin: 0px auto 20px;
+        font-size: 25px;
+    }
+
+    button.btn-more-d {
+        height: 45px;
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .about-buld-man {
+        background-size: cover;
+    }
+
+    .orange-bg {
+        margin-top: 660px;
+    }
+
+    .img-big-man {
+        bottom: 152px;
+        right: 17%;
+    }
+
+    .look-out-window {
+        font-size: 16px;
+        width: 100%;
+    }
+    .our-service-list li {
+        padding: 7px 0px;
+        margin: 2px 10px;
+        width: 46%;
+        text-align: inherit;
+    }
+
+       
+
+
+}
+
+/* max width 375px - 576px  */

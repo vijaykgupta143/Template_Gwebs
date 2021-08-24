@@ -1,0 +1,709 @@
+body {
+    font-family: 'Montserrat', 'Poppins', 'Open Sans', 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h4,
+h3,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+/* Header */
+
+header.header-top .nav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 45px;
+    padding: 42px 0;
+}
+
+a.btn.btn-dark {
+    font-size: 15px;
+    font-family: 'Montserrat';
+    border: 2px solid;
+    font-weight: 500;
+    padding: 10px 34px;
+    background-color: transparent;
+    transition: ease-in-out 0.6s;
+}
+
+a.btn.btn-dark:hover {
+    background-color: #89b157;
+    border-color: rgba(175, 175, 175, 0.3);
+}
+
+/* header Main Title */
+section.landing-page-bg {
+    background: url(../Images/header-full-bg.png) no-repeat scroll center center;
+    min-height: 827px;
+    background-size: cover;
+}
+
+section.landing-page-bg .row .bridgeview {
+    max-width: 492px;
+}
+
+section.landing-page-bg .row .bridgeview h3 {
+    color: #89b157;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+section.landing-page-bg .row .bridgeview h1 {
+    color: #89b157;
+    font-size: 45px;
+    letter-spacing: -0.2px;
+    margin-bottom: 45px;
+}
+
+section.landing-page-bg .row .bridgeview span {
+    color: white;
+}
+
+section.landing-page-bg .row .bridgeview p {
+    color: white;
+    font-size: 22px;
+    line-height: 1.364;
+    font-weight: 500;
+}
+
+/* header career form */
+.career-form {
+    width: 100%;
+    float: right;
+    max-width: 495px;
+}
+
+form.form-register {
+    padding: 25px 37px 35px;
+    background-color: rgba(255, 255, 255, 0.062);
+    text-align: center;
+    border: 1px solid rgba(70, 70, 70, 0.425);
+}
+
+.form-register h3 {
+    color: #ffffff;
+    border-bottom: 4px solid #89b157;
+    line-height: 2.2;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.form-register input {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-register input::placeholder {
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.form-register a.btn.form-button {
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px 0;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #87b252;
+    transition: ease-in-out 0.6s;
+}
+
+.form-register a.btn.form-button:hover {
+    color: #fff;
+    background-color: #386600;
+}
+
+/* about tricoci university */
+section.about-tricoci-u .row .about-left {
+    max-width: 651px;
+    margin-bottom: 55px;
+    margin-top: 90px;
+}
+
+section.about-tricoci-u .row .about-left h3 {
+    color: #81b441;
+    font-size: 35px;
+    word-spacing: 3px;
+    margin-bottom: 42px;
+    font-weight: 600;
+}
+
+section.about-tricoci-u .row .about-left p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+section.about-tricoci-u .logo-nca {
+    display: flex;
+    align-items: center;
+    max-width: 563px;
+    margin-bottom: 50px;
+}
+
+section.about-tricoci-u .logo-nca p {
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+/* right side   */
+section.about-tricoci-u .tricoci-u-right {
+    width: calc(100% - 20px);
+    padding: 85px 75px 80px 50px;
+    background-color: rgb(240, 243, 245);
+    float: right;
+
+}
+
+section.about-tricoci-u .tricoci-u-right .tricoci-culture p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: -2px;
+    margin-bottom: 38px;
+}
+
+/* Make Row Gutter-40 */
+.row.gutter-40 {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.row.gutter-40 [class*="col-"] {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+
+section.about-tricoci-u .tricoci-u-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section.about-tricoci-u .tricoci-u-right ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.08px;
+}
+
+section.about-tricoci-u .tricoci-u-right ul li a {
+    color: #81b441;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+section.about-tricoci-u .tricoci-u-right ul li:hover a {
+    color: #000000;
+}
+
+section.about-tricoci-u .tricoci-u-right ul li a svg.svg-inline--fa.fa-check.fa-w-16 {
+    margin-right: 20px;
+}
+
+/* THE COSMETOLOGY PROGRAM */
+section.costmology-program .row .costmo-title-left {
+    text-align: center;
+    max-width: 578px;
+}
+
+section.costmology-program .row .costmo-title-left h3 {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 30px;
+    word-spacing: -2px;
+}
+
+/* right side area  1500 hours */
+section.costmology-program .costmo-title-right {
+    margin-left: 20px;
+    padding: 50px 50px 25px 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 159, 80);
+}
+
+section.costmology-program .costmo-title-right h3 {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-left: 15px;
+    font-size: 24px;
+    line-height: 0.95;
+}
+
+section.costmology-program .costmo-title-right p {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+section.costmology-program .costmo-title-right .hors-1550 {
+    padding-top: 5px;
+}
+
+/* LEARM MORE ABOUT THE PROGRAM VIDEO */
+section.learm-more-p-video {
+    background: url(../Images/video-full-image.png) no-repeat scroll center center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.learn-more-video-all {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+    color: #ffffff;
+}
+
+section.learm-more-p-video .learn-more-video-all h2 {
+    font-size: 35px;
+    word-spacing: -1px;
+}
+
+section.learm-more-p-video .learn-more-video-all h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.learm-more-p-video .learn-more-video-all .play-video {
+    position: relative;
+    border-radius: 50%;
+    background-color: #89b157;
+    height: 91px;
+    width: 91px;
+    margin: 28px auto;
+    transition: ease-in-out 0.6s;
+}
+
+section.learm-more-p-video .learn-more-video-all .play-video:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 20px 5px #000000;
+}
+
+section.learm-more-p-video .learn-more-video-all .play-video:hover svg {
+    color: #89b157;
+    transition: ease-in-out 0.6s;
+}
+
+section.learm-more-p-video .learn-more-video-all .play-video svg {
+    color: #ffffff;
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: ease-in-out 0.6s;
+}
+
+/* INSTRUCTIONAL METHOD */
+
+section.instructional-method .row.align-items-center {
+    padding: 79px 0;
+}
+
+section.instructional-method .row .ipad-your-keep {
+    float: right;
+}
+
+section.instructional-method .row .ipad-your-keep img {
+    width: 100%;
+    transition: all 0.8s;
+}
+
+section.instructional-method .row .ipad-your-keep img:hover {
+    transform: scale(1.02);
+}
+
+section.instructional-method .row .method-all {
+    margin-left: 10px;
+}
+
+section.instructional-method .row .method-all h4 {
+    max-width: 305px;
+    font-size: 35px;
+    color: #81b441;
+    line-height: 1.286;
+    margin: 0;
+}
+
+section.instructional-method .row .method-all h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    word-spacing: -0.5px;
+    margin: 32px 0;
+    max-width: 550px;
+    margin-left: 5px;
+}
+
+section.instructional-method .row .method-all p {
+    font-size: 16px;
+    line-height: 1.8;
+    word-spacing: 0.5px;
+    max-width: 550px;
+    margin-left: 5px;
+}
+
+section.instructional-method .row .method-all a {
+    margin-left: 5px;
+}
+
+section.instructional-method .row .method-all .lets-talk {
+    color: #ffff;
+    background-color: #81b441;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    padding: 13px 66px;
+    margin-bottom: 44px;
+    border-radius: 3px;
+    transition: ease-in-out 0.6s;
+}
+
+section.instructional-method .row .method-all .lets-talk:hover {
+    color: #81b441;
+    background-color: #000;
+}
+
+/* CURRICULUM SECTION */
+section.curriculum {
+    background: url(../Images/makeup-kitt-img.png) no-repeat scroll center right;
+    background-color: black;
+    background-size: contain;
+    min-height: 400px;
+}
+
+section.curriculum .row {
+    padding: 75px 0 80px;
+}
+
+section.curriculum .row .curri-main-title {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+section.curriculum .row .curri-main-title h4 {
+    color: #ffff;
+    font-size: 40px;
+}
+
+section.curriculum .row .curri-item {
+    display: flex;
+    align-items: center;
+    margin: 75px 0 20px 30px;
+}
+
+section.curriculum .row .curri-item .curri-logo {
+    text-align: center;
+}
+
+section.curriculum .row .curri-item .curri-text {
+    margin-left: 15px;
+}
+
+section.curriculum .curri-item .curri-text a {
+    color: #81b441;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    margin-left: 0%;
+    font-weight: 600;
+    transition: ease-in-out 0.3s;
+}
+
+section.curriculum .curri-item .curri-text a:hover {
+    color: #8cff00;
+}
+
+section.curriculum .curri-item .curri-text p {
+    color: #ffff;
+    margin: 12px 0 0;
+}
+
+/* START YOUR CAREER TODAY */
+
+section.start-our-career-2 .row {
+    padding: 65px 0;
+    text-align: center;
+}
+
+section.start-our-career-2 .start_our_cu h3 {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 500;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+}
+
+.start_our_cu .btn.lets-talk {
+    color: #ffff;
+    margin: 0 45px;
+    font-weight: 600;
+    border: 2px solid #ffff;
+    padding: 11px 63px;
+    background-color: #89b157;
+    transition: ease-in-out 0.6s;
+}
+
+.start_our_cu .btn.lets-talk:hover {
+    color: #89b157;
+    background-color: #000;
+    border-color: #81b441;
+}
+
+
+/* ADMISSIONS AND FINANCIAL AID */
+
+section.admission-fin-aid .admission-left-all {
+    margin: 80px 0px 76px;
+}
+
+section.admission-fin-aid .admission-left-all .main-title {
+    max-width: 492px;
+}
+
+section.admission-fin-aid .admission-left-all .main-title h2 {
+    font-size: 35px;
+    color: #89b157;
+    margin: 42px 0;
+}
+
+section.admission-fin-aid .admission-left-all ul {
+    list-style-type: none;
+    margin-bottom: 55px;
+    margin-left: 2px;
+}
+
+section.admission-fin-aid .admission-left-all li {
+    color: #454545;
+    font-size: 20px;
+    margin-bottom: 42px;
+    position: relative;
+    margin: 30px 0;
+    font-weight: 400;
+    word-spacing: -2px;
+}
+
+section.admission-fin-aid .admission-left-all li::before {
+    content: url(../Images/next-errrow.png);
+    position: absolute;
+    left: -40px;
+    top: 32%;
+}
+
+.admission-left-all .lets-talk {
+    color: #ffff;
+    background-color: #81b442;
+    margin: 0;
+    margin-left: 5px;
+    border: none;
+    padding: 13px 66px;
+    transition: ease-in-out 0.6s;
+    font-weight: 500;
+}
+
+.admission-left-all .lets-talk:hover {
+    background-color: #000;
+
+}
+
+section.admission-fin-aid .admission-img {
+    margin-right: -60px;
+    overflow: hidden;
+    margin-left: -30px;
+    height: 100%;
+}
+
+section.admission-fin-aid .admission-img img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+/* options we use to help make beauty school */
+
+section.more-option-drm .option-all {
+    max-width: 822px;
+    margin: 0 auto;
+    padding: 64px 0 56px;
+}
+
+section.more-option-drm .option-all p {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7;
+    word-spacing: -1.7px;
+    margin: 0px 0px 37px;
+}
+
+section.more-option-drm .colu-parent {
+    max-width: 660px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section.more-option-drm .option-all ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+section.more-option-drm .option-all ul li {
+    margin-bottom: 16px;
+}
+
+section.more-option-drm .option-all ul li svg {
+    margin-right: 10px;
+}
+
+section.more-option-drm .option-all ul li a {
+    color: #81b441;
+    text-decoration: none;
+    font-weight: 600;
+    word-spacing: -2px;
+}
+
+section.more-option-drm .option-all ul li:hover a {
+    color: #000;
+}
+
+/* CAMPUSES */
+
+section.campuses .row {
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 95px 0 50px;
+}
+
+section.campuses .title-or-list {
+    padding: 0;
+    max-width: 310px;
+}
+
+section.campuses .title-or-list .only-title {
+    border-bottom: 4px solid #89b157;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section.campuses .title-or-list .only-title h3 {
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+
+section.campuses .title-or-list .only-title p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+section.campuses .title-or-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section.campuses .title-or-list ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+section.campuses .title-or-list ul li a {
+    text-decoration: none;
+    color: #89b157;
+    font-weight: 600;
+}
+
+section.campuses .title-or-list ul li:hover a {
+    color: #fff;
+}
+
+/* Tricoci University Cosmetology School */
+
+section.footer-form .row .trico-footer-title form.form-register {
+    background-color: rgba(31, 26, 26, 0.294);
+}
+
+section.footer-form .row .trico-footer-title h2 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    font-size: 35px;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+section.footer-form .row .trico-footer-title {
+    background: url(../Images/footer-img-c.png) no-repeat scroll left bottom;
+    padding: 70px 0;
+    width: 90%;
+}
+
+section.footer-form .row .trico-footer-title .career-form {
+    margin-right: 118px;
+}
+
+/* FOOTER FINAL */
+
+footer.footer-final {
+    background-color: #000000;
+}
+
+footer.footer-final .row .footer-content ul {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    margin: 28px 0 23px 0px;
+    padding-left: 120px;
+}
+
+footer.footer-final .row .footer-content ul li.first-li {
+    padding-right: 15px;
+}
+
+footer.footer-final .row .footer-content ul .social {
+    display: flex;
+    margin: 0 23px;
+}
+
+footer.footer-final .row .footer-content li {
+    color: #fff;
+    padding: 0 26px 0 0;
+}
+
+footer.footer-final .row .footer-content li svg {
+    font-size: 25px;
+}
+
+footer.footer-final .row .footer-content a {
+    text-decoration: none;
+    color: #fff;
+    word-spacing: 0.8px;
+}
+
+footer.footer-final .row .footer-content li:hover a {
+    color: #89b157;
+}

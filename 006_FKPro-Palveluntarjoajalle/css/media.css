@@ -1,0 +1,336 @@
+@media screen and (min-width: 1199px) {
+    .container {
+        max-width: 1293px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .container-2 {
+        max-width: 1612px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1764px) {
+    .container-2 {
+        max-width: 1540px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1599px) {
+    .container-2 {
+        max-width: 1500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    section.Liiketo .all-parent {
+        max-width: 1365px;
+        margin-left: auto;
+        width: 100%;
+        padding: 55px 15px;
+        margin-bottom: 98px;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img {
+        max-width: 692px;
+        margin: 45px 0;
+        margin-left: auto;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img::after {
+        width: 560px;
+        height: 533px;
+        left: 122px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+
+    .container-2 {
+        max-width: 1300px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    section.landing-page .landing-text-area .landing-title h1 {
+        font-size: 40px;
+    }
+
+    section.Liiketo .all-parent {
+        max-width: 1454px;
+        margin-left: auto;
+        width: 100%;
+        padding: 55px 15px;
+        margin-bottom: 98px;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img::after {
+        width: 560px;
+        height: 480px;
+        left: 123px;
+        bottom: 49px;
+    }
+}
+
+
+/* max width 992px - 1200px  */
+@media screen and (max-width: 1199px) {
+
+    .container-2 {
+        max-width: 1140px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img::after {
+        width: 100%;
+        height: 100%;
+        bottom: 70px;
+        left: 15px;
+    }
+
+    section.landing-page .landing-text-area .landing-title h1 {
+        font-size: 30px;
+    }
+
+    section.tyot .row.tyot-parent {
+        padding: 113px 0 113px;
+    }
+
+    section.Liiketo .all-parent {
+        margin-bottom: 55px;
+    }
+
+    section.rakennu .row .parent-l-f {
+        margin-bottom: 100px;
+    }
+
+    section.tehdaan .row .parent {
+        padding: 115px 0 115px;
+    }
+}
+
+/* max width 768px - 991px  */
+@media screen and (max-width: 991px) {
+    header.header-top .header-all-c nav.navbar.navbar-expand-lg.navbar-dark {
+        left: 0;
+        margin: inherit;
+    }
+
+    section.landing-page .landing-text-area .landing-title h1 {
+        font-size: 24px;
+    }
+
+    section.tyot .row .tyot-right {
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 80px;
+    }
+
+    section.tyot .row .tyot-right .top-title {
+        margin-left: 0;
+    }
+
+    section.tyot .row.tyot-parent {
+        padding: 113px 0 20px;
+    }
+
+    section.Liiketo .all-parent .row .liiketo-all .top-title {
+        max-width: 100%;
+    }
+
+    section.Liiketo .all-parent .row .liiketo-all ul.liiketo-ul {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img {
+        max-width: 100%;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img::after {
+        width: 100%;
+        bottom: 53px;
+    }
+
+    section.rakennu .row .top-title {
+        max-width: 100%;
+        margin: 0 auto 50px;
+    }
+
+    section.rakennu .row .parent-l-f {
+        display: contents;
+    }
+
+    section.Liiketo .all-parent {
+        margin-bottom: 0px;
+    }
+
+    section.rakennu .row .parent-l-f .left-items {
+        max-width: 100%;
+        margin-right: auto;
+    }
+
+    section.rakennu .row .parent-l-f .designed-images {
+        left: 0;
+        margin: 50px auto;
+    }
+
+    section.asian .all-parent {
+        margin-left: 0;
+    }
+
+    section.tehdaan .row .parent ul.tehdaan-ul li {
+        line-height: 1.5;
+        margin-bottom: 22px;
+    }
+
+    footer.footer-top .footer-all .row .left-items .bottom-subscribe {
+        margin-bottom: 50px;
+    }
+
+    footer.footer-top .footer-all {
+        padding: 50px 0;
+    }
+}
+
+/* max width 577px - 767px  */
+
+@media screen and (max-width: 767px) {
+    section.tyot .row.tyot-parent {
+        padding: 113px 0 20px;
+    }
+
+    section.landing-page .landing-text-area {
+        top: 60%;
+    }
+
+    section.landing-page .landing-text-area .landing-title h1 {
+        font-size: 23px;
+    }
+
+    footer.sub-footer .sub-f-all .row .copy-right p {
+        text-align: center;
+    }
+
+    .social.d-flex {
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer.sub-footer .sub-f-all .row .social a {
+        margin: 10px 10px;
+        padding: 5px;
+    }
+
+}
+
+/* max width 320px - 576px  */
+
+@media screen and (max-width: 576px) {
+    section.landing-page .landing-text-area .landing-logo {
+        margin-bottom: 5px;
+    }
+
+    section.landing-page .landing-text-area .landing-title h1 {
+        font-size: 20px;
+    }
+
+    section.tyot .row.tyot-parent {
+        padding: 30px 0 20px;
+    }
+
+    section.tyot .row .img-rounded .rounded-circle {
+        width: 230px;
+    }
+
+    section.tyot .row .img-rounded {
+        margin-top: 0px;
+    }
+
+    section.tyot .row .rounded-circle::before {
+        display: none;
+    }
+
+    section.tyot .row .tyot-right {
+        margin-top: 10px;
+    }
+
+    section.Liiketo .all-parent .row .liiketo-all .top-title h4 {
+        font-size: 30px;
+    }
+
+    section.Liiketo .all-parent .row .liiketo-all .top-title p {
+        font-size: 16px;
+    }
+
+    section.Liiketo .all-parent {
+        padding: 30px 15px;
+    }
+
+    section.rakennu .row .top-title h4 {
+        font-size: 27px;
+    }
+
+    section.rakennu .row .top-title h6 {
+        font-size: 17px;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img::after {
+        width: 300px;
+        height: 200px;
+        bottom: 70px;
+        left: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    section.Liiketo .all-parent .row .dashbord-img {
+        margin: 10px 0;
+    }
+
+    section.rakennu .row .parent-l-f .designed-images {
+        left: 0;
+        margin: 0px auto;
+    }
+
+    section.rakennu .row .parent-l-f .designed-images .six-dimention-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    section.rakennu .row .parent-l-f .designed-images {
+        min-height: 350px;
+    }
+
+
+    section.rakennu .row .parent-l-f .designed-images .six-dimention-img {
+        width: 125px;
+        height: 100px;
+    }
+
+    section.asian .all-parent {
+        padding: 30px 0;
+    }
+
+    section.tehdaan .row .parent {
+        padding: 30px 0;
+    }
+
+    section.form-area .all-items h3 {
+        font-size: 28px;
+    }
+
+    section.tehdaan .row .parent ul.tehdaan-ul li a::before {
+        left: -16px;
+    }
+
+    section.tehdaan .row .parent {
+        margin: 0;
+    }
+}

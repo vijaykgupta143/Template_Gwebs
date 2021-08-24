@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1st. add awesome in array string
+
+        var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
+        for (i = 0; i < animals.length; i++) {
+            animals[i] = "Awesome " + animals[i];
+        }
+        console.log(animals);
+
+
+        // 2nd random number with while loop
+
+        var alphabet = "abcdefghijklmnopqrstuvwxyz";
+        var randomString = "";
+        while (randomString.length < 6) {
+            randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+        }
+        console.log(randomString);
+
+
+
+        // 4th random string with for loop
+        var alphabet = "abcdefghijklmnopqrstuvwxyz";
+        var randomString = "";
+        for (i = 0; i < 6; i++) {
+            randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+        }
+        console.log(randomString);
+    </script>
+</body>
+
+</html>

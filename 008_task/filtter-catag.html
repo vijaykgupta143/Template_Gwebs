@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check box filter tab</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /* ul.nav-tabs li.nav-item {
+            border: 1px solid;
+        } */
+
+
+        .nav-tabs .btn-group label.btn {
+            padding: 5px 10px;
+            display: flex;
+        }
+
+        .nav-tabs .btn-group label.btn input {
+            margin-right: 5px;
+            float: left;
+            align-self: center;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #dddddd;
+        }
+
+        .sName {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="all-p d-flex justify-content-around">
+        <ul class="nav-tabs">
+            <!-- <li class="nav-item"><a class="nav-link" href="#">All</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Amreek</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Hakam</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Vijay</a></li> -->
+
+
+
+            <div class="btn-group" id="lableGroup" style="display: grid;" data-toggle="buttons">
+                <label class="btn btn-primary" for="ai">
+                    <input type="checkbox" onclick="myFunction()" name="allList" class="all-i" id="ai" checked>find all
+                </label>
+
+                <label class="btn btn-primary" for="cName">
+                    <input type="checkbox" name="name" class="all-i" id="cName" onclick="myFunction()">Name
+                </label>
+
+                <label class="btn btn-primary" for="ages">
+                    <input type="checkbox" onclick="myFunction()" name="age" class="all-i" id="ages">Age
+                </label>
+
+                <label class="btn btn-primary" for="countrys">
+                    <input type="checkbox" onclick="myFunction()" name="countrys" class="countrys" id="countrys">Age
+                </label>
+            </div>
+        </ul>
+
+
+        <table class="tab-content">
+            <tr class="tab-pane">
+                <th class="sName">Name</th>
+                <th>Age</th>
+                <th>Class</th>
+                <th>Roll No.</th>
+                <th>Address</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr class="tableRow">
+                <td class="sName">Amreek</td>
+                <td class="age">21</td>
+                <td class="clas">12</td>
+                <td class="rollNo">50</td>
+                <td class="address">Ambala</td>
+                <td class="contact">+91 98545 41258</td>
+                <td class="country">india</td>
+            </tr>
+
+            <tr class="tableRow">
+                <td class="sName">Hakam</td>
+                <td class="age">32</td>
+                <td class="clas">12</td>
+                <td class="rollNo">02</td>
+                <td class="address">Ram Nager</td>
+                <td class="contact">+91 98242 96468</td>
+                <td class="country">india</td>
+            </tr>
+
+            <tr class="tableRow">
+                <td class="sName">Vijay kumar</td>
+                <td class="age">27</td>
+                <td class="clas">12</td>
+                <td class="rollNo">28</td>
+                <td class="address">Tepla</td>
+                <td class="contact">+91 76964 52743</td>
+                <td class="country">india</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+    <script>
+        function myFunction() {
+            var checkBox = document.querySelectorAll(".all-p .nav-tabs .btn-group .btn-primary .all-i ");
+            var text = document.querySelectorAll(".all-p .tab-content .tableRow .sName");
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+    <script src="js/all.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Script.js"></script>
+</body>
+
+</html>
